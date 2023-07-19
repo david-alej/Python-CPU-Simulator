@@ -1,7 +1,7 @@
 # Python-CPU-Simulator
 I created a CPU simulator in Python. Where the CPU is made up of a program counter register, instructions register, the Control Unit(CU), and the Arithmetic Logic Unit (ALU). The ALU is different here such that it contains the cache and main memory. With my beginner's understanding of a CPU, I made a diagram that shows the control flow of a CPU.
 
-
+![](Images/cpu_diagram.png)
 
 Where the grey arrows are unidirectional and the blue arrows are bidirectional. This helped me construct the Python CPU simulator that has its CU and ALU as classes and the registers for PC and instructions are an initialized number and a list, respectively. The ALU class has the Main memory class and Cache class inside it because both memory storages live outside the CPU and the ALU is the one exchanging signals. The following classes have the function of:
 
